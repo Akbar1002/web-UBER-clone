@@ -132,7 +132,7 @@ h1{
 
    .section3{
        width:100%;
-       height:700px;
+       height:1200px;
        background-color: cornsilk;
    }
 
@@ -164,3 +164,101 @@ h1{
     flex-wrap: wrap;
 }
 
+
+.safety-box{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin:150px 170px;
+    line-height: 30px;
+    flex-wrap: wrap;
+}
+
+h4{
+    font-size: 2rem;
+}
+
+
+.about-us{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin:0px 170px;
+    line-height: 30px;
+    flex-wrap: wrap;
+}
+
+.register-box{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin:0px 170px;
+    line-height: 30px;
+    flex-wrap: wrap;
+}
+
+h5,h6{
+    font-size: 2rem;
+    line-height: 40px;
+}
+
+
+.fasfa-arrow-right{
+    width: 20px;
+    height:30px;
+}
+
+
+.section4{
+    width:100%;
+    height: 700px;
+    background-color:black;
+    background-position: bottom;
+    padding-top: 200px;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+h7{
+    color:white;
+    font-size: 1.5rem;
+
+}
+
+.section4 #help{
+    color:white;
+    margin-left: 50px;
+}
+
+
+.contact{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin:0px 50px;
+    line-height: 30px;
+    color:white;
+    margin-right: 50px;
+    line-height:50px;
+
+}
+
+footer{
+    color: white;
+}
+
+
+@media screen and (max-width:600px){
+    .section1 ul,.pic-box,.safety-box,.about-us,.contact {width:95%;}
+    
+    }
+
+
+
+@media screen and(min-width:768; max-width:1024;)
+{  .section1 ul,.pic-box,.safety-box,.about-us,.contact {flex-basis:40%;} }
